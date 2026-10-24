@@ -4,11 +4,11 @@
 
 **Team name:** [ADD]
 
-**Team members:** [FULL NAME 1], [FULL NAME 2]
+**Team members:** [FULL NAME 1], Carter Ishmael 
 
-**Affiliation / department / career level:** [ADD BOTH MEMBERS]
+**Affiliation / department / career level:** MTSU, Computer science/Physics, Undergraduate
 
-**Submission category:** [Rising-star / Champion, subject to judging committee determination]
+**Submission category:** Rising-star
 
 ## Executive summary
 - Implemented a quantum kernel support vector classifier (QSVC) using a four-qubit feature map.
@@ -18,7 +18,7 @@
 - [REPLACE WITH OBSERVED RESULT — DO NOT INVENT ACCURACY]
 
 ## Motivation
-We investigate whether quantum feature mapping and entanglement can capture useful structure in network intrusion data. The motivation is exploratory, not a claim of quantum acceleration or operational threat protection.
+We investigate whether quantum feature mapping and entanglement can capture useful structure in network intrusion data. The motivation is to test the effectiveness and accuracy of the quantum models compared to the classical counterparts. 
 
 ## Method
 **Dataset:** NSL-KDD 20% train file / independent NSL-KDD test file.
@@ -54,6 +54,6 @@ Small deliberately balanced datasets, selection variability, legacy NSL-KDD, onl
 Run all cells in `QuantumShield.ipynb`. Input files download from public NSL-KDD mirror. Exact parameters are in `results/experiment_config.json`.
 
 ## References
-- IQ Hackathon Fall 2026 launch and QML pre-training lecture (organizers' materials).
+- IQ Hackathon Fall 2026 launch and QML pre-training lecture.
 - https://github.com/Jehuty4949/NSL_KDD
 - https://qiskit-community.github.io/qiskit-machine-learning/
