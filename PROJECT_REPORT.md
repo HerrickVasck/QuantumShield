@@ -6,7 +6,7 @@
 
 **Team members:** [FULL NAME 1], Carter Ishmael 
 
-**Affiliation / department / career level:** Carter Ishmael; undergrad 
+**Affiliation / department / career level:** MTSU, Computer science/Physics, Undergraduate
 
 **Submission category:** Rising-star
 
@@ -18,7 +18,7 @@
 - [REPLACE WITH OBSERVED RESULT — DO NOT INVENT ACCURACY]
 
 ## Motivation
-We investigate whether quantum feature mapping and entanglement can capture useful structure in network intrusion data. The motivation is exploratory, not a claim of quantum acceleration or operational threat protection.
+We investigate whether quantum feature mapping and entanglement can capture useful structure in network intrusion data. The motivation is to test the effectiveness and accuracy of the quantum models compared to the classical counterparts. 
 
 ## Method
 **Dataset:** NSL-KDD 20% train file / independent NSL-KDD test file.
