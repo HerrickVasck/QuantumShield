@@ -20,11 +20,36 @@
     0.5,
     1.0
   ],
-  "selected_lambda": 0.25,
+  "cv_C_candidates": [
+    0.1,
+    1.0,
+    10.0
+  ],
+  "cv_gamma_candidates": [
+    "scale",
+    0.1,
+    1.0
+  ],
+  "selected_classical_params": {
+    "C": 10.0,
+    "gamma": "scale"
+  },
+  "selected_quantum_params": {
+    "Quantum Z QSVC": {
+      "lambda": 1.0,
+      "C": 10.0
+    },
+    "Quantum ZZ QSVC": {
+      "lambda": 0.5,
+      "C": 1.0
+    }
+  },
   "models": [
     "Classical RBF SVM",
     "Quantum ZZ QSVC",
     "Quantum Z QSVC"
   ],
+  "timing_note": "fit_seconds excludes hyperparameter search and inference",
+  "evaluation_note": "exploratory results; the held-out test subset was examined during earlier runs",
   "hardware": "classical statevector simulator \u2014 no quantum hardware"
 }

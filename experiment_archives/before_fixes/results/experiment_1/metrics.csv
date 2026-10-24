@@ -1,0 +1,4 @@
+model,accuracy,balanced_accuracy,precision_attack,recall_attack,f1_attack,false_positive_rate,false_negatives,fit_seconds
+Classical RBF SVM,0.875,0.875,0.9411764705882353,0.8,0.8648648648648649,0.05,4,0.0014223130001482787
+Quantum ZZ QSVC,0.85,0.85,0.9375,0.75,0.8333333333333334,0.05,5,0.16333846699944843
+Quantum Z QSVC,0.85,0.85,0.9375,0.75,0.8333333333333334,0.05,5,0.09879380600068544
