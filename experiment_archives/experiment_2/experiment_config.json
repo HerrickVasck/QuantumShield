@@ -1,0 +1,30 @@
+{
+  "name": "QuantumShield \u2014 Interstate Quantum Hackathon 2026",
+  "dataset": "NSL-KDD (public GitHub mirror)",
+  "train_source": "https://raw.githubusercontent.com/Jehuty4949/NSL_KDD/master/KDDTrain%2B_20Percent.txt",
+  "test_source": "https://raw.githubusercontent.com/Jehuty4949/NSL_KDD/master/KDDTest%2B.txt",
+  "train_per_class": 40,
+  "test_per_class": 100,
+  "features": [
+    "src_bytes",
+    "dst_bytes",
+    "count",
+    "srv_serror_rate"
+  ],
+  "seed": 42,
+  "qubits": 4,
+  "reps": 2,
+  "cv_folds": 3,
+  "cv_lambda_candidates": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "selected_lambda": 0.25,
+  "models": [
+    "Classical RBF SVM",
+    "Quantum ZZ QSVC",
+    "Quantum Z QSVC"
+  ],
+  "hardware": "classical statevector simulator \u2014 no quantum hardware"
+}

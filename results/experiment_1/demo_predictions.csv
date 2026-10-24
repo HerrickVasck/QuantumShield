@@ -1,0 +1,9 @@
+record,actual,classical,quantum_ZZ
+1,Benign,Benign,Benign
+2,Benign,Benign,Benign
+3,Attack,Attack,Attack
+4,Attack,Attack,Attack
+5,Benign,Benign,Benign
+6,Benign,Benign,Benign
+7,Attack,Attack,Attack
+8,Benign,Benign,Benign
