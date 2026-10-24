@@ -3,3 +3,7 @@ qml-env/
 __pycache__/
 .ipynb_checkpoints/
 data/
+
+# Local editor/history and temporary report copies
+.Rhistory
+PROJECT_REPORT_backup.md

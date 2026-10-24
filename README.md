@@ -41,7 +41,7 @@ These are the **exploratory held-out test results** from the current notebook co
 
 The classical SVM performed best on accuracy and attack recall in this independently tuned configuration; the quantum Z model had the fewest false positives. These results are **not** evidence of a quantum computational advantage.
 
-Earlier exploratory experiments varied training/test sample counts and feature-map repetitions. Some of those experiments favored a quantum classifier, but **their results should not be treated as directly equivalent to this independently tuned run** because the model-selection procedures differed. See `experiment_archives/` when included in the repository.
+Earlier exploratory experiments varied training/test sample counts and feature-map repetitions. Some of those experiments favored a quantum classifier, but **their results should not be treated as directly equivalent to this independently tuned run** because the model-selection procedures differed. Archived experiment settings, metrics, and figures are available under `experiment_archives/`.
 
 ### Visualizations
 
@@ -75,8 +75,8 @@ To repeat an earlier experiment, change `TRAIN_PER_CLASS`, `TEST_PER_CLASS`, and
 - `PROJECT_REPORT.md` — hackathon report (methods, results, interpretation, limitations, team details).
 - `requirements.txt` — Python dependencies.
 - `results/` — generated CSV tables, charts, and experiment configuration (after running the notebook).
-- `experiment_archives/` — saved earlier exploratory experiments, if committed.
-- `classical_baselines.py` — teammate's additional classical analysis, **once merged into the repository**.
+- `experiment_archives/` — saved earlier exploratory experiments and the independently tuned run.
+- `classical_baselines.py` — Carter Ishmael's additional classical-model analysis (Linear SVM, RBF SVM, Random Forest).
 
 ## Limitations
 
